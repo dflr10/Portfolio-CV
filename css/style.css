@@ -87,6 +87,11 @@ img {
   height: auto;
 }
 
+.portfolio-modal img {
+  width: 65%;
+  height: auto;
+}
+
 p {
   line-height: 1.6;
 }
@@ -466,7 +471,7 @@ progress::-moz-progress-bar {
   max-width: var(--max-width);
 }
 .gray-scale {
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
 
 .none {
@@ -594,6 +599,7 @@ progress::-moz-progress-bar {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  padding: 2rem;
 }
 
 .portfolio-card-info {

@@ -83,7 +83,7 @@ h6 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -530,6 +530,12 @@ progress::-moz-progress-bar {
 /* ********** Site Styles ********** */
 .about > article {
   margin-bottom: 2rem;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 700px;
 }
 
 .contact-card {

@@ -24,6 +24,11 @@
 }
 
 /* ********** Reset ********** */
+html,
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
 html {
   box-sizing: border-box;
   font-family: var(--font);
@@ -83,7 +88,7 @@ h6 {
 }
 
 img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -606,6 +611,7 @@ blockquote {
   height: 100%;
   object-fit: cover;
   padding: 2rem;
+  margin: auto;
 }
 
 .portfolio-card-info {
@@ -690,7 +696,7 @@ blockquote {
 }
 
 @media screen and (min-width: 768px) {
-  .contact-cards {
+  . .contact-cards {
     display: grid;
     grid-template-columns: repeat(2, 48%);
     justify-content: space-between;

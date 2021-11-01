@@ -692,6 +692,7 @@ span {
 .social-media svg {
   width: 1.5rem;
   height: 1.5rem;
+  fill: var(--first-color);
 }
 
 @media screen and (min-width: 768px) {
